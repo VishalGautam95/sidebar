@@ -1,0 +1,121 @@
+#bgclr{
+    background-color:  hsl(205, 50%, 81%); ;
+}
+/* #container{ */
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+    /* cursor: pointer; */
+    /* margin-top: 50px; */
+    /* animation: bounce 2s ease-in-out infinite; */
+    /* margin-left: 450px; */
+/* } */
+
+
+.sidebar-toggle{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: hsl(205, 78%, 60%);
+    transition:  all 0.3s linear;
+    /* cursor: pointer; */
+    /* animation: bounce 2s ease-in-out infinite; */
+  }
+  .sidebar-toggle:hover {
+    color:hsl(205, 90%, 70%);
+
+ }
+ 
+
+/* #sidebar{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    /* border: 2px solid red; */
+/* } */ */
+
+#image{
+    justify-self: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 40px;
+    
+}
+
+.close-btn{
+    /* margin-top: 10px; */
+    margin-left: 110px;
+    font-size: 1.75rem;
+    color:  hsl(205, 78%, 60%);;
+    background: transparent;
+    border-color: transparent; 
+    transition:  all 0.3s linear;
+    cursor: pointer;
+    color: hsl(360, 67%, 44%);   
+}
+.close-btn:hover{
+    color: hsl(360, 71%, 66%);;
+    transform: rotate(360deg);
+}
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.links a {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    color: hsl(210, 22%, 49%);
+    transition: all;
+    /* border: 2px solid red; */
+
+}
+.links a:hover {
+    background:  hsl(205, 86%, 81%);
+    color: hsl(205, 78%, 60%);
+    padding-left: 1.75rem;
+}  
+.leftsidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height:100%;
+    background:  #fff;
+    /* display: grid; */
+    /* grid-template-rows: auto 1fr auto; */
+    /* row-gap: 1rem; */
+    /* box-shadow: hsl(360, 67%, 44%); */
+    transition:  all 0.3s linear;
+    transform: translate(-100%);
+    /* border: 2px solid red; */
+  } 
+
+.show-sidebar {
+    transform: translate(0);
+  }
+.social-icons {
+    justify-self: center;
+    display: flex;
+    margin-top: 270px;
+    margin-left: 72px;
+    /* border: 2px solid red; */
+}
+.social-icons a{
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+    color: hsl(205, 78%, 60%);
+    transition:  all 0.3s linear;
+    padding-bottom: 2rem;
+    
+}
+.social-icons a:hover{
+    color: hsl(205, 86%, 17%);
+}
